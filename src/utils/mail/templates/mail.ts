@@ -8,8 +8,8 @@ const transporter = nodemailer.createTransport({
     port: 465,              // Port untuk koneksi secure (SSL/TLS)
     secure: true,           // Menggunakan TLS/SSL
     auth: {
-        user: "aljisaptiadi@gmail.com",  // Ganti dengan email pengirim yang valid
-        pass: "Alji_TKJ1",               // Ganti dengan password yang valid
+        user: "",  // Ganti dengan email pengirim yang valid
+        pass: "",               // Ganti dengan password yang valid
     },
     requireTLS: true,        // Memastikan penggunaan TLS
 });
